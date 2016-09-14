@@ -8,7 +8,7 @@ a', 'Edward', 'Jonathan', 'Celine', 'Daniel', 'Lindsey', 'Ziyan', 'Elina'],
 }
 
 def selector(n):
-    x = random.randrange(len(CLASSES[n])-1)
+    x = random.randrange(len(CLASSES[n]))
     return CLASSES[n][x]
 
 #test case galore
